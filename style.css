@@ -220,15 +220,13 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-.map-placeholder {
-  height: 260px;
+.map-embed {
   border: 1px solid var(--line);
-  background: var(--bg-panel);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-dim);
-  font-size: 0.85rem;
+  line-height: 0;
+}
+
+.map-embed iframe {
+  display: block;
 }
 
 /* ---- Apply ---- */
