@@ -171,6 +171,22 @@ h2 {
   margin: 0 auto;
 }
 
+/* ---- Perk ---- */
+.perk-copy {
+  text-align: center;
+  color: var(--text-dim);
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  border: 1px solid var(--gold);
+  background: var(--bg-panel);
+}
+
+.perk-copy strong {
+  color: var(--gold-soft);
+  font-size: 1.1rem;
+}
+
 /* ---- Flow ---- */
 .flow-steps {
   list-style: none;
