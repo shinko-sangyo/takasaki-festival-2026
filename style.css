@@ -149,6 +149,21 @@ h2 {
 .note { color: var(--text-dim); font-size: 0.85rem; }
 
 /* ---- Chef ---- */
+.chef-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.chef-gallery img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+
 .chef-copy {
   text-align: center;
   color: var(--text-dim);
@@ -238,6 +253,7 @@ h2 {
 /* ---- Responsive ---- */
 @media (max-width: 640px) {
   .gallery-grid { grid-template-columns: 1fr; }
+  .chef-gallery { grid-template-columns: 1fr; }
   .overview-table th, .overview-table td { display: block; width: 100%; }
   .overview-table th { border-bottom: none; padding-bottom: 0.3rem; }
   .overview-table td { padding-top: 0; }
