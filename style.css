@@ -205,6 +205,17 @@ h2 {
   margin: 0 auto;
 }
 
+.chef-notes {
+  max-width: 520px;
+  margin: 1.5rem auto 0;
+  padding-left: 1.2rem;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  line-height: 1.8;
+}
+
+.chef-notes li { margin-bottom: 0.4rem; }
+
 /* ---- Perk ---- */
 .perk-copy {
   text-align: center;
